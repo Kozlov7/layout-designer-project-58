@@ -1,0 +1,39 @@
+:root {
+  /* Цвета */
+  --white-color: #fff; /* Белый */
+  --translucent-white-color: #d7ccc0; /* Полупрозрачный белый */
+  --light-color: #f5f4f0; /* Светлый */
+  --main-color: #fe8a02; /* Основной */
+  --main-dark-color: #42413c; /* Основной тёмный */
+  --dark-color: #2a2626; /* Тёмный */
+  --translucent-dark-color: #908d8b; /* Полупрозрачный тёмный */
+  --brown-color: #b09a81; /* Коричневый */
+  --blue-color: #1085c5; /* Синий */
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-style: normal;
+  color: var(--dark-color);
+}
+h1,
+h2,
+h3 {
+  line-height: 1.2em;
+  font-family: "Neucha", cursive;
+}
+h1 {
+  font-size: 72px;
+}
+h2 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 34px;
+}
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
