@@ -16,12 +16,16 @@ body {
   line-height: 1.6em;
   font-style: normal;
   color: var(--dark-color);
+  margin: 0;
+  overflow-x: hidden;
 }
 h1,
 h2,
 h3 {
   line-height: 1.2em;
   font-family: "Neucha", cursive;
+  position: relative;
+  z-index: 1;
 }
 h1 {
   font-size: 72px;
@@ -36,4 +40,55 @@ h3 {
   max-width: 1110px;
   margin: 0 auto;
   padding: 100px 0;
+  position: relative;
+}
+.basic-bg::before {
+  content: "";
+  background-image: url(./images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.basic-bg {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background: var(--light-color);
+}
+.orange {
+  color: var(--main-color);
+}
+.dark {
+  color: var(--dark-color);
+}
+.wrapper img {
+  position: absolute;
+  height: 525px;
+  top: 55px;
+  right: -270px;
+}
+.columns-2 {
+  padding-top: 200px;
+  column-count: 2;
+  column-gap: 30px;
+}
+.columns-2 p {
+  margin-top: 0;
+  break-inside: avoid;
+}
+a {
+  background: var(--main-color);
+  font-weight: bold;
+  color: var(--light-color);
+  padding: 12px 24px;
+}
+.button-columns-2 {
+  column-count: 2;
+  column-gap: 30px;
+  margin-top: 37px;
 }
