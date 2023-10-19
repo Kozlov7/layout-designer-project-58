@@ -92,3 +92,25 @@ a {
   column-gap: 30px;
   margin-top: 37px;
 }
+/* Start video-section */
+.video-section {
+  text-align: center;
+  background: linear-gradient(
+    360deg,
+    var(--main-dark-color),
+    var(--main-dark-color) 100px,
+    var(--white-color) 100px,
+    var(--white-color)
+  );
+}
+.video-section p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+iframe {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+/* Finish video-section */
