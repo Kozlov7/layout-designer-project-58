@@ -260,3 +260,9 @@ ul {
 
 /* Start hyperbolic-depreciation */
 /* Finish hyperbolic-depreciation */
+
+/* Start errors-in-planning */
+.p-margin {
+  margin-bottom: 16px;
+}
+/* Finish errors-in-planning */
