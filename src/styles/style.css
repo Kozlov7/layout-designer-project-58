@@ -193,7 +193,7 @@ ul {
 .dark-color {
   color: var(--translucent-dark-color);
 }
-.flexblok h1 {
+.flexblok h2 {
   padding-bottom: 30px;
 }
 .main-text {
@@ -254,3 +254,7 @@ ul {
 }
 
 /* Finish premature-optimization */
+
+/* Start distortion-of-novelty */
+
+/* Finish distortion-of-novelty */
